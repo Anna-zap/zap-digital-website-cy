@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title Tag for SEO -->
+    <title>Digital Marketing Specialist Cyprus - Content, Web & Ads for SMEs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .service-card { transition: all 0.3s ease; }
+        .service-card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
+
+        /* Custom Colors: Primary Accent is Orange (for ZAP!) */
+        .text-primary-accent { color: #f97316; } /* Orange 500 */
+        .bg-primary-accent { background-color: #f97316; } /* Orange 500 */
+        .hover\:bg-primary-accent-dark:hover { background-color: #ea580c; } /* Orange 600 */
+        .shadow-primary-accent { box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.4), 0 4px 6px -2px rgba(249, 115, 22, 0.2); }
+
+        /* 3D Button Style for the ZAP! CTA */
+        .zap-button {
+            position: relative;
+            transform: perspective(1px) translateZ(0);
+            transition: all 0.3s ease-out;
+            padding-bottom: 1.25rem; /* Add space for the bottom shadow */
+            box-shadow: 0 0.5rem 0 0 #d97706; /* Darker orange shadow (acting as the 3D bottom) */
+        }
+        .zap-button:hover {
+            transform: translateY(-0.1rem);
+            box-shadow: 0 0.75rem 0 0 #d97706; /* Lift the shadow a bit on hover */
+        }
+        .zap-button:active {
+            transform: translateY(0.5rem);
+            box-shadow: 0 0.1rem 0 0 #d97706; /* Press down the button on active */
+        }
+
+        /* Styling for the Google Form iframe */
+        .google-form-iframe {
+            width: 100%;
+            min-height: 800px; 
+            border: none;
+            border-radius: 0.75rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+            <a href="#hero" class="text-2xl font-extrabold text-gray-900 flex items-center space-x-1">
+                <span class="text-primary-accent">Zap</span> Digital Solutions
+            </a>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6">
+                    <li><a href="#services" class="text-gray-600 hover:text-primary-accent font-medium">Υπηρεσίες</a></li>
+                    <li><a href="#proof" class="text-gray-600 hover:text-primary-accent font-medium">Case Studies</a></li>
+                    <li><a href="#process" class="text-gray-600 hover:text-primary-accent font-medium">Διαδικασία</a></li>
+                    <li><a href="#contact" class="bg-primary-accent text-white font-semibold py-2 px-4 rounded-lg hover:bg-primary-accent-dark transition duration-300">Δωρεάν Ανάλυση</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="md:hidden bg-primary-accent text-white font-semibold py-2 px-4 rounded-lg hover:bg-primary-accent-dark transition duration-300">Ανάλυση</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Ενότητα Κεφαλίδας (Above the Fold) -->
+        <section id="hero" class="bg-white py-20 sm:py-28 lg:py-36 border-b border-gray-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                
+                <!-- Design Note: Εικόνα που δείχνει ταχύτητα/αποτέλεσμα. -->
+                <div class="max-w-md mx-auto mb-10">
+                    <img src="https://placehold.co/600x400/fff7ed/f97316?text=%CE%A8%CE%B7%CF%86%CE%B9%CE%B1%CE%BA%CE%AE%20%CE%91%CF%80%CE%BF%CF%84%CE%B5%CE%BB%CE%B5%CF%83%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1" 
+                         alt="" class="rounded-xl shadow-xl mx-auto">
+                </div>
+                
+                <!-- H1 (Headline) -->
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-4 tracking-tight">
+                    Σας Στοιχίζει Ακριβά και Χάνετε Χρόνο με το Online Marketing;
+                </h1>
+                
+                <!-- Υπότιτλος -->
+                <p class="text-xl sm:text-2xl mb-10 max-w-4xl mx-auto text-gray-600">
+                    Ο Digital Συνεργάτης που χρειάζεστε: <span class="font-semibold text-gray-800">Smart Content, Άμεσα Websites & Αποτελεσματικές Διαφημίσεις, χωρίς τους Πονοκεφάλους.</span>
+                </p>
+                
+                <!-- CTA: 💥 ZAP! Κάντε το Πρώτο Βήμα (Δωρεάν Ανάλυση) -->
+                <a href="#contact" class="zap-button bg-primary-accent hover:bg-primary-accent-dark text-white font-black py-4 px-10 rounded-xl text-xl transition duration-300 inline-block">
+                    <span class="text-2xl align-middle">💥 ZAP!</span> Κάντε το Πρώτο Βήμα (Δωρεάν Ανάλυση)
+                </a>
+            </div>
+        </section>
+
+        <!-- 2. Ποιοι Είμαστε; (The Value Proposition) -->
+        <section id="value-proposition" class="py-16 sm:py-24 bg-gray-100 border-b border-gray-200">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6">
+                    Zap Digital Solutions: Η Ψηφιακή Ανάπτυξη Χωρίς Χρονοτριβή.
+                </h2>
+                <p class="text-xl text-gray-700 leading-relaxed">
+                    Είμαι ο προσωπικός σας Digital Specialist, έτοιμος να αναλάβει την πλήρη εκτέλεση της online παρουσίας σας. Αντί για το υψηλό κόστος μιας μεγάλης Agency, προσφέρω Smart, ευέλικτες λύσεις με ταχύτητα, χρησιμοποιώντας εργαλεία AI και Low-Code platforms.
+                </p>
+            </div>
+        </section>
+
+        <!-- 3. Οι Εξειδικευμένες Υπηρεσίες μας (Content, Web, Ads & Email) -->
+        <section id="services" class="py-16 sm:py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-base text-primary-accent font-semibold tracking-wide uppercase">Οι Λύσεις Σας</h2>
+                    <p class="mt-2 text-3xl sm:text-4xl font-extrabold text-gray-900">
+                        Τι κάνουμε για να φέρουμε πελάτες στην επιχείρησή σας.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-10">
+
+                    <!-- Υπηρεσία 1: Smart Content & Visuals -->
+                    <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-primary-accent service-card">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 flex items-center">
+                            <span class="text-primary-accent mr-3">✅</span> Smart Content & Visuals
+                        </h3>
+                        <p class="text-gray-700">
+                            **Δημιουργία Content:** Παράγω γρήγορα υψηλής ποιότητας Video Content, Photos και κείμενα (AI Copywriting) για Meta και TikTok.
+                        </p>
+                        <p class="mt-2 text-primary-accent font-medium">
+                            **Πλεονέκτημα:** Το content σας θα είναι πάντα on-brand και βελτιστοποιημένο για engagement.
+                        </p>
+                    </div>
+
+                    <!-- Υπηρεσία 2: Άμεσα Websites & Landing Pages -->
+                    <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-primary-accent service-card">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 flex items-center">
+                            <span class="text-primary-accent mr-3">✅</span> Άμεσα Websites & Landing Pages
+                        </h3>
+                        <p class="text-gray-700">
+                            **Web Development:** Κατασκευή Website και Landing Pages σε πλατφόρμες Wix και AI builders.
+                        </p>
+                        <p class="mt-2 text-primary-accent font-medium">
+                            **Πλεονέκτημα:** Γρήγορη παράδοση (άμεση λειτουργία) και low-cost συντήρηση.
+                        </p>
+                    </div>
+
+                    <!-- Υπηρεσία 3: Αποτελεσματικό Ads Management -->
+                    <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-primary-accent service-card">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 flex items-center">
+                            <span class="text-primary-accent mr-3">✅</span> Αποτελεσματικό Ads Management
+                        </h3>
+                        <p class="text-gray-700">
+                            **Performance Marketing:** Πλήρης διαχείριση και βελτιστοποίηση Google Ads και Meta Ads Campaigns.
+                        </p>
+                        <p class="mt-2 text-primary-accent font-medium">
+                            **Πλεονέκτημα:** Εστίαση στο ROAS και τη μείωση του CPA, όχι απλά στα likes.
+                        </p>
+                    </div>
+
+                    <!-- Υπηρεσία 4: Email & Newsletter Funnels -->
+                    <div class="p-6 bg-gray-50 rounded-xl shadow-lg border-l-4 border-primary-accent service-card">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 flex items-center">
+                            <span class="text-primary-accent mr-3">✅</span> Email & Newsletter Funnels
+                        </h3>
+                        <p class="text-gray-700">
+                            **Email Marketing:** Σχεδιασμός, setup και διαχείριση Newsletters και Campaign Emails.
+                        </p>
+                        <p class="mt-2 text-primary-accent font-medium">
+                            **Πλεονέκτημα:** Αυτοματοποιημένη επικοινωνία που ενισχύει την αφοσίωση και φέρνει επαναλαμβανόμενες πωλήσεις.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Η Απόδειξη: Έργα & Case Studies -->
+        <section id="proof" class="py-16 sm:py-24 bg-gray-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-base text-primary-accent font-semibold tracking-wide uppercase">Η Αξία των Αποτελεσμάτων</h2>
+                    <p class="mt-2 text-3xl sm:text-4xl font-extrabold text-gray-900">
+                        Δείτε τι Παραδίδουμε:
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-2xl overflow-hidden">
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Πελάτης</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider hidden sm:table-cell">Τομέας</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Υπηρεσίες</th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white divide-y divide-gray-200">
+                                <!-- Case Study 1: Rejuvi Sweden -->
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                                        <a href="https://www.rejuvisweden.com" target="_blank" class="text-primary-accent hover:underline">Rejuvi Sweden</a>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600 hidden sm:table-cell">Wellness & Beauty (Διεθνής)</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Content Creation (Video/Photo), Web, Ads & Email Marketing.</td>
+                                </tr>
+                                <!-- Case Study 2: Esthetic Zone Academy -->
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                                        <a href="https://www.estheticzoneacademy.com" target="_blank" class="text-primary-accent hover:underline">Esthetic Zone Academy</a>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600 hidden sm:table-cell">Wellness & Εκπαίδευση (Τοπική)</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Website Development, Social Media Management & Email Marketing.</td>
+                                </tr>
+                                <!-- Case Study 3: Asteroula.com -->
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                                        <a href="https://www.asteroula.com" target="_blank" class="text-primary-accent hover:underline">Asteroula.com</a>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600 hidden sm:table-cell">Personal Branding</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Website Design & Maintenance.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Η Διαδικασία Συνεργασίας (3 Απλά Βήματα) -->
+        <section id="process" class="py-16 sm:py-24 bg-white border-t border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h3 class="text-base text-gray-600 font-semibold tracking-wide uppercase">Διαδικασία 3 Βημάτων</h3>
+                    <p class="mt-2 text-3xl sm:text-4xl font-extrabold text-gray-900">
+                        Πώς λειτουργούμε – Χωρίς δεσμεύσεις, χωρίς χάσιμο χρόνου:
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    
+                    <!-- Βήμα 1: ZAP! Αίτηση -->
+                    <div class="p-6 bg-white rounded-xl shadow-lg border-2 border-primary-accent/50">
+                        <div class="text-4xl font-black text-primary-accent mb-3">1</div>
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">ZAP! Αίτηση</h4>
+                        <p class="text-gray-600">
+                            Συμπληρώνετε τη φόρμα (ή πατάτε το ZAP button).
+                        </p>
+                    </div>
+
+                    <!-- Βήμα 2: Δωρεάν Ανάλυση -->
+                    <div class="p-6 bg-white rounded-xl shadow-lg border-2 border-primary-accent/50">
+                        <div class="text-4xl font-black text-primary-accent mb-3">2</div>
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">Δωρεάν Ανάλυση</h4>
+                        <p class="text-gray-600">
+                            Επικοινωνούμε για να αξιολογήσουμε τις ανάγκες σας και να σας δώσουμε συγκεκριμένες, άμεσες ιδέες (15λεπτη ανάλυση).
+                        </p>
+                    </div>
+
+                    <!-- Βήμα 3: Εκτέλεση & Αποτέλεσμα -->
+                    <div class="p-6 bg-white rounded-xl shadow-lg border-2 border-primary-accent/50">
+                        <div class="text-4xl font-black text-primary-accent mb-3">3</div>
+                        <h4 class="text-xl font-bold text-gray-900 mb-2">Εκτέλεση & Αποτέλεσμα</h4>
+                        <p class="text-gray-600">
+                            Ξεκινάμε με ένα μικρό "Πακέτο Γρήγορου Κέρδους" για να δείτε αποτελέσματα αμέσως.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Contact Section & Final CTA -->
+        <section id="contact" class="py-16 sm:py-24 bg-primary-accent text-white">
+            <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl sm:text-4xl font-extrabold mb-6">
+                        Είστε Έτοιμοι να Δείτε Αποτελέσματα;
+                    </h2>
+                    <a href="#hero" class="zap-button bg-white hover:bg-gray-100 text-primary-accent font-black py-4 px-10 rounded-xl text-xl transition duration-300 inline-block">
+                        <span class="text-2xl align-middle">💥 ZAP!</span> Κάντε το Πρώτο Βήμα (Δωρεάν Ανάλυση)
+                    </a>
+                </div>
+                
+                <!-- Google Form Embed (using the corrected URL from our previous session) -->
+                <iframe 
+                    class="google-form-iframe bg-white"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLScz7t9eR5w-p7vj3Jt-Y-q3I4kO6Z1h-Q7eQ1H9A3XjXpL9E8/viewform?embedded=true"
+                    loading="lazy"
+                >Φόρμα Επικοινωνίας...</iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <!-- Contact Info -->
+            <p class="mb-2">
+                <span class="font-bold">Επικοινωνία:</span> Άννα Ζάπρου | +35799156453 | <a href="mailto:info@zapdigitalsolutions.com" class="text-primary-accent hover:underline">info@zapdigitalsolutions.com</a>
+            </p>
+            <p>
+                &copy; 2025 Zap Digital Solutions - All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // The 'ZAP!' buttons scroll to the contact form, which is now done by the href="#contact" and the smooth scroll script above.
+        });
+    </script>
+</body>
+</html>
